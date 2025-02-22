@@ -1,4 +1,6 @@
 {
     "java.configuration.updateBuildConfiguration": "automatic",
-    "java.jdt.ls.java.home" : "/usr/lib/jvm/java-21-openjdk"
+    "java.jdt.ls.java.home": "/usr/lib/jvm/java-21-openjdk",
+    "maven.terminal.useJavaHome": true,
+    "java.compile.nullAnalysis.mode": "automatic"
 }
