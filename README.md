@@ -16,3 +16,9 @@ npm install -g appium
 ./appium_serverv.sh
 mci
 ```
+
+## Hello World
+```
+mci
+java -jar target/<jarname>
+```
