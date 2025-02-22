@@ -1,0 +1,25 @@
+{
+  "name": "toggle-test-app",
+  "version": "1.0.0",
+  "description": "Android app for appium testing",
+  "main": "bin/ToggleTest-debug.apk",
+  "scripts": {
+    "prepublish": "android update project --subprojects --target android-19 --path . --name ToggleTest && ant clean debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/appium/toggle-test-app.git"
+  },
+  "keywords": [
+    "appium",
+    "test",
+    "toggle",
+    "android"
+  ],
+  "author": "",
+  "license": "apache-2.0",
+  "bugs": {
+    "url": "https://github.com/appium/toggle-test-app/issues"
+  },
+  "homepage": "https://github.com/appium/toggle-test-app"
+}
