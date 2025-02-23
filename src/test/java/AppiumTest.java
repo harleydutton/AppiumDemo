@@ -36,7 +36,7 @@ public class AppiumTest {
                 .withIPAddress(null)
                 .usingPort(1234)
                 .usingDriverExecutable(new File(nodePath));
-        service = AppiumDriverLocalService.buildDefaultService();
+        service = AppiumDriverLocalService.buildService(asb);
         service.start();
     }
 
